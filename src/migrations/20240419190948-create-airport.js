@@ -25,9 +25,8 @@ module.exports = {
       },
       cityId: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        allowNull: false
       },
-
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
